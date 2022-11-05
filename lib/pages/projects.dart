@@ -44,7 +44,7 @@ class Projects extends StatelessWidget {
                                                 "https://github.com/Jud-e"),
                                           ));
                                     });
-                              }),
+                              }), //
                         ),
                       ),
                       SizedBox(

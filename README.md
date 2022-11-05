@@ -22,3 +22,11 @@ Libraries used in the project:
 Features I would love to add in the future:
 - Automatic Dark mode enabling
 - Language enabling
+
+Link to the Apk()
+
+Challenges I faced during the creation of this project:
+- I didn't know how to work with the percent indicator and url launcher packages as this was my first implementation with them. I overcame my difficulties by reading the documentaion.
+- Google nav bar posed a problem with redirecting especially since I intended to use a full page vertical scroll. I had to take out that idea.
+
+Link to Appetize()

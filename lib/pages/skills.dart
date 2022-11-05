@@ -120,20 +120,6 @@ class Skills extends StatelessWidget {
                       ),
                     ),
                   ),
-                  // Container(
-                  //   child: Column(
-                  //     children: [
-                  //       text("Interests", 30, Colors.black),
-                  //       Row(
-                  //         children: [
-                  //           text("Mobile design", 20, Colors.black),
-                  //           text("Mobile design", 20, Colors.black),
-                  //           text("Mobile design", 20, Colors.black),
-                  //         ],
-                  //       )
-                  //     ],
-                  //   ),
-                  // )
                 ],
               ),
             ),

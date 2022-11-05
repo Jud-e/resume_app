@@ -1,16 +1,11 @@
 # resume_app
 
-A new Flutter project.
+This is a simple resume app built with Dart and Flutter.(Always a work in progress)
+The application contains a homepage, a simple skill comparison with indicators, a small yet concise information about my educationo and work history so far and a project section that takes you to my various repositories.
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+My Code base has the following breakdown:
+- The Source code has four main screens which are found in the pages directory,
+- The screens are the homepage, skill section, history and project sections,
+- Widgets such as the Appbar,etc repeat themselves throughout the codebase so they were extracted and placed into the widget.dart file,
+- A bottom nav was positioned on the homepage for easy navigation as it is the index, and
+- a sidenav is placed with a drawer containing my contact information and social links.

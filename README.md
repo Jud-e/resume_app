@@ -23,10 +23,10 @@ Features I would love to add in the future:
 - Automatic Dark mode enabling
 - Language enabling
 
-Link to the Apk()
+Link to the Apk("https://drive.google.com/file/d/1H-FiUiurR_HckgCGg2EpLWa6iTj_PyBF/view?usp=share_link")
 
 Challenges I faced during the creation of this project:
 - I didn't know how to work with the percent indicator and url launcher packages as this was my first implementation with them. I overcame my difficulties by reading the documentaion.
 - Google nav bar posed a problem with redirecting especially since I intended to use a full page vertical scroll. I had to take out that idea.
 
-Link to Appetize()
+Link to Appetize("https://appetize.io/app/jt55zqbvopt6jpfv5cnv62aqu4?device=pixel4&osVersion=12.0&scale=75")

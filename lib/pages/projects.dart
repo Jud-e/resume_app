@@ -41,7 +41,7 @@ class Projects extends StatelessWidget {
                                             child: column(
                                                 "Merge-Sort algorithm",
                                                 "A project making use of merge sort algorithm in python(using Flask)",
-                                                "https://github.com/Jud-e"),
+                                                "https://github.com/Jud-e/MERGE-SORT-ALGORITHM"),
                                           ));
                                     });
                               }),
@@ -72,7 +72,7 @@ class Projects extends StatelessWidget {
                                             child: column(
                                                 "ManageOps",
                                                 "A staff management system built for Covenant University to handle its promotion criterias",
-                                                "https://github.com/Jud-e"),
+                                                "https://github.com/Jud-e/Final-year"),
                                           ));
                                     });
                               }),
@@ -107,7 +107,7 @@ class Projects extends StatelessWidget {
                                             child: column(
                                                 "Portfolio",
                                                 "A simple portfolio built with flutter and Dart",
-                                                "https://github.com/Jud-e"),
+                                                "https://github.com/Jud-e/resume_app"),
                                           ));
                                     });
                               }),

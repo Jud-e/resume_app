@@ -26,6 +26,8 @@ Widget indicator(context, double percentage) {
   return LinearPercentIndicator(
     width: MediaQuery.of(context).size.width - 86,
     lineHeight: 15.0,
+    animation: true,
+    animationDuration: 1000,
     percent: percentage,
     barRadius: const Radius.circular(30),
     progressColor: Color.fromARGB(255, 45, 162, 212),

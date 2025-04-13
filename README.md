@@ -1,32 +1,73 @@
-# resume_app
+# Resume App 📄
 
-This is a simple resume app built with Dart and Flutter.(Always a work in progress)
-The application contains a homepage, a simple skill comparison with indicators, a small yet concise information about my educationo and work history so far and a project section that takes you to my various repositories.
+**Resume App** is a personal portfolio-style mobile application built using Flutter and Dart. It showcases a developer profile including education, work history, technical skills with progress indicators, and direct links to GitHub repositories. The project was created to demonstrate clean UI practices and serve as a functional developer resume on mobile.
 
-My Code base has the following breakdown:
-- The Source code has four screens which are found in the pages directory,
-- The screens are the homepage, skill section, history and project sections,
-- Widgets such as the Appbar,etc repeat themselves throughout the codebase so they were extracted and placed into the widget.dart file,
-- A bottom nav was positioned on the homepage for easy navigation as it is the index, and
-- a sidenav is placed with a drawer containing my contact information and social links.
+---
 
-The basic design was sourced from here("https://dribbble.com/shots/15273424-Resume-CV-Mobile-Shots")
- 
-Libraries used in the project:
-- Google fonts was used to get specific text styling,
-- Google nav bar was used for bottom navigation,
-- Percent indicator was used for the percentage indicators on the skill screen,
-- Url launcher was used to link the various icons on the drawer and containers on the project section to their respective links
-- Font awesome was used to get specific social media icons as flutter's default icon class didn't have them.
+## ✨ Features
 
-Features I would love to add in the future:
-- Automatic Dark mode enabling
-- Language enabling
+- 🏠 **Homepage** – Clean dashboard layout
+- 🛠️ **Skill Section** – Shows tech stack proficiency using progress indicators
+- 🎓 **Education & Work History** – Simple, well-structured background summary
+- 📁 **Projects Page** – Interactive links to GitHub repositories
+- 📲 **Bottom Navigation Bar** – Easy movement across major sections
+- 📬 **Side Drawer** – Includes contact info and social media links
+- 🔗 **Link Launcher Integration** – Clickable icons lead to external profiles and project links
 
-Link to the Apk("https://drive.google.com/file/d/1H-FiUiurR_HckgCGg2EpLWa6iTj_PyBF/view?usp=share_link")
+---
 
-Challenges I faced during the creation of this project:
-- I didn't know how to work with the percent indicator and url launcher packages as this was my first implementation with them. I overcame my difficulties by reading the documentaion.
-- Google nav bar posed a problem with redirecting especially since I intended to use a full page vertical scroll. I had to take out that idea.
+## 🛠 Tech Stack
 
-Link to Appetize("https://appetize.io/app/jt55zqbvopt6jpfv5cnv62aqu4?device=pixel4&osVersion=12.0&scale=75")
+- **Flutter**
+- **Dart**
+
+### 📚 Libraries Used
+
+- `google_fonts` – Custom typography
+- `google_nav_bar` – Stylish bottom navigation
+- `percent_indicator` – Visual skill indicators
+- `url_launcher` – External link handling
+- `font_awesome_flutter` – Additional social media icons
+---
+
+## 🚀 Getting Started
+
+No special setup required. To run the app:
+
+```bash
+git clone https://github.com/Jud-e/resume_app.git
+cd resume_app
+flutter pub get
+flutter run
+```
+
+---
+
+## 🎯 Future Enhancements
+
+- 🌙 Automatic dark mode toggle
+- 🌍 Multi-language support
+---
+
+## 📲 Demo & Downloads
+
+- 🔗 [Appetize Demo (Live Preview)](https://appetize.io/app/jt55zqbvopt6jpfv5cnv62aqu4?device=pixel4&osVersion=12.0&scale=75)
+- 📦 [Download APK](https://drive.google.com/file/d/1H-FiUiurR_HckgCGg2EpLWa6iTj_PyBF/view?usp=share_link)
+---
+
+## 🧠 Challenges Faced
+
+- Learning `percent_indicator` and `url_launcher` for the first time through documentation
+- Adapting the `google_nav_bar` for page routing while avoiding vertical scroll issues
+---
+
+## 📬 Contact
+
+Want to connect or provide feedback?  
+Find me on [LinkedIn](https://www.linkedin.com/in/jude-ovien/) or explore more on [GitHub](https://github.com/Jud-e)
+---
+
+## 🎨 Design Inspiration
+
+This UI was inspired by a design on [Dribbble](https://dribbble.com/shots/15273424-Resume-CV-Mobile-Shots)
+
